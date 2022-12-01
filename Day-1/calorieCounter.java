@@ -46,7 +46,7 @@ public class calorieCounter {
     }
 
     public static int getTopThree(List<Integer> calories, int topThree) {
-        List<Integer> sortedCalories = calories.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());; 
+        List<Integer> sortedCalories = calories.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()); 
 
         for (int i = 0; i < 3; i++) {
             topThree += sortedCalories.get(i);
