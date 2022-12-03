@@ -67,8 +67,6 @@ public class PrioritySum {
             String line2 = lines.get(i + 1);
             String line3 = lines.get(i + 2);
 
-            // compare first three for loop
-            // use the previous for loops to check this
             for (char c : lower.toCharArray()) {
                 if ((line1.indexOf(c) >= 0) && (line2.indexOf(c) >= 0) && (line3.indexOf(c) >= 0)) {
                     tempSum += lower.indexOf(c) + 1;
