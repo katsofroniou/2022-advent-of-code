@@ -22,8 +22,6 @@ public class CampCleanup {
         return allPairs;
     }
 
-    // Part 1 - 547
-    // Part 2 - 843
     public static int checkPairs(String elf1, String elf2) {
         int elf1Small, elf2Small, elf1Big, elf2Big;
         String[] elf1Split, elf2Split;
