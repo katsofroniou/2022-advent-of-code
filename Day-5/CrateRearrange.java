@@ -127,5 +127,6 @@ public class CrateRearrange {
 
         System.out.printf("\nPart 1 Speed: %s seconds\nPart 2 Speed: %s seconds", part1Speed / 1000000000.0,
                 part2Speed / 1000000000.0);
+
     }
 }
