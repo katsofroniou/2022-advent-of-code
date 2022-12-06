@@ -8,7 +8,7 @@ As you move through the dense undergrowth, one of the Elves gives you a handheld
 However, because he's heard you have significant experience dealing with signal-based systems, he convinced the other Elves that it would be okay to give you their one malfunctioning device - surely you'll have no problem fixing it.
 As if inspired by comedic timing, the device emits a few colorful sparks.
 
-To be able to communicate with the Elves, the device needs to lock on to their signal. 
+To be able to communicate with the Elves, the device needs to lock on to their signal.
 
 - The signal is a series of seemingly-random characters that the device receives one at a time.
 - To fix the communication system, you need to add a subroutine to the device that detects a start-of-packet marker in the datastream.
